@@ -1,0 +1,60 @@
+/* App.css */
+.App {
+  display: flex;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  width: 100%;
+  position: absolute;
+}
+
+.logo img {
+  width: 40px; /* Adjust the width as needed */
+  height: auto;
+}
+
+.header-icons img {
+  width: 30px; /* Adjust the width as needed */
+  height: auto;
+  margin-left: 10px;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  background-color: #555;
+}
+
+.orders-page-container {
+  margin-top: 60px; /* Adjust this value to match the height of your toolbar */
+  padding: 100px; /* Optional: Add padding to the top */
+  display: flex;
+  justify-content: center;
+  margin-right: 100px;
+  align-items: stretch;
+  flex: 1;
+}
